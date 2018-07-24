@@ -1,8 +1,21 @@
 {
   "name": "zqueue",
   "version": "0.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "dist/zqueue.js",
+  "umd:main": "dist/zqueue.umd.js",
+  "module": "dist/zqueue.m.js",
+  "source": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": "https://github.com/andressrg/zqueue.git",
+  "author": "Andres Serrano <andres.srg@gmail.com>",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
   "devDependencies": {
     "microbundle": "^0.6.0"
   }
