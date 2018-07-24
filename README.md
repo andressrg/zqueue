@@ -8,7 +8,7 @@ Queue and run promise based jobs. Can be used to control the use of resources li
 import { ZQueue } from 'zqueue';
 import axios from 'axios';
 
-const queue = ZQueue({ max: 3 });
+const queue = new ZQueue({ max: 3 });
 
 queue.run(() => axios.put(myUrl1, file1));
 queue.run(() => axios.put(myUrl2, file2));
