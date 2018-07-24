@@ -1,6 +1,6 @@
 {
   "name": "zqueue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/zqueue.js",
   "umd:main": "dist/zqueue.umd.js",
