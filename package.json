@@ -2,5 +2,8 @@
   "name": "zqueue",
   "version": "0.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
 }
